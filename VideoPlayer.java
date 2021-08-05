@@ -90,7 +90,6 @@ public class VideoPlayer {
   }
 
   public void playRandomVideo() {
-    // Play Random Video
     if(!playingVideo.equals("")){
       System.out.println("Stopping video: " + playingVideo);
       playingVideo = "";
@@ -250,8 +249,6 @@ public class VideoPlayer {
   }
 
   public void clearPlaylist(String playlistName) {
-    // remove all values from a key
-
     // if playlist exists
     if(playlists.containsKey(playlistName)){
       // access the list inside the hashmap
